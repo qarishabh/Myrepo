@@ -20,16 +20,8 @@ public class Myclass {
 		System.setProperty("webdriver.chrome.driver","E:\\Softwares\\chromedriver.exe");
 		driver=new ChromeDriver();
 		
-		
-		//Firefox
-		
-		//System.setProperty("webdriver.gecko.driver","E:\\Softwares\\geckodriver.exe");
-	//	driver=new FirefoxDriver();
-		
-		
-		// driver=new HtmlUnitDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 	}
 	
 	@Test

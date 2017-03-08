@@ -22,6 +22,8 @@ public class Myclass {
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
+		System.out.println("Runing in Jenkins...............");
+		System.out.println("Runing in Jenkins...............");
 	}
 	
 	@Test
@@ -29,12 +31,19 @@ public class Myclass {
 	{	
 		driver.get("https://www.linkedin.com/");
 		System.out.println("Runing in Jenkins...............");
+		System.out.println("Runing in Jenkins...............");
+		System.out.println("Runing in Jenkins...............");
+		System.out.println("Runing in Jenkins...............");
+		System.out.println("Runing in Jenkins...............");
+		
 	}
 	
 	@AfterMethod
 	public void closebrowser()
 	{
 		driver.quit();
+		System.out.println("Runing in Jenkins...............");
+		System.out.println("Runing in Jenkins...............");
 	}
 	
 

@@ -26,7 +26,7 @@ public class Myclass {
 		System.out.println("Runing in Jenkins...............");
 	}
 	
-	@Test
+	@Te
 	public void Login()
 	{	
 		driver.get("https://www.linkedin.com/");
@@ -41,9 +41,10 @@ public class Myclass {
 	@AfterMethod
 	public void closebrowser()
 	{
+		
+		System.out.println("Runing in Jenkins...............");
+		System.out.println("Runing in Jenkins...............");
 		driver.quit();
-		System.out.println("Runing in Jenkins...............");
-		System.out.println("Runing in Jenkins...............");
 	}
 	
 
